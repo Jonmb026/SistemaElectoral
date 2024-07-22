@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="UTF-8">
+    <title>Portal Electoral</title>
+    <link href="~/CSS/EstilosGenerales.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <h1>Portal Electoral</h1>
+        </header>
+        <nav>
+            <a href="Inicio.aspx">Inicio</a>
+            <a href="RegistrarUsuario.aspx">Registrar Usuario</a>
+            <a href="RegistrarCandidato.aspx">Registrar Candidato</a>
+            <a href="Votacion.aspx">Votación</a>
+            <a href="Resultados.aspx">Resultados</a>
+            <a href="Login.aspx">Login</a>
+        </nav>
+        <main>
+            <div class="container">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Portal Electoral. Todos los derechos reservados.</p>
+        </footer>
+    </form>
+</body>
+</html>

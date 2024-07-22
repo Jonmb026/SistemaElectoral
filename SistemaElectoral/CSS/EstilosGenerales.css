@@ -1,0 +1,157 @@
+﻿/* Reset */
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+    header h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+
+/* Navigation */
+nav {
+    background-color: #444;
+    overflow: hidden;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
+}
+
+    nav a {
+        float: left;
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+    main h2 {
+        margin-top: 0;
+        color: #1845ad;
+    }
+
+    main p {
+        margin: 10px 0;
+        line-height: 1.6;
+    }
+
+/* Form Styles */
+form {
+    margin: 20px 0;
+}
+
+    form label {
+        display: block;
+        margin: 10px 0 5px;
+        font-weight: bold;
+    }
+
+    form input,
+    form select,
+    form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form button {
+        padding: 10px 20px;
+        background-color: #1845ad;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        form button:hover {
+            background-color: #333;
+        }
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+    table th,
+    table td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    table th {
+        background-color: #1845ad;
+        color: #fff;
+    }
+
+    table tr:hover {
+        background-color: #f1f1f1;
+    }
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Main Container */
+.main-container {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
